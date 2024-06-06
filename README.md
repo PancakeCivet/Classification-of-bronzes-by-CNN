@@ -8,8 +8,6 @@ This project is our final assignment for the course **Science, Technology, and S
 - [Dataset](#dataset)
 - [Methodology](#methodology)
 - [Results](#results)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -31,7 +29,14 @@ Key steps in our methodology include:
 - Training: Training the model on the dataset with appropriate hyperparameters.
 - Evaluation: Assessing the model's performance using metrics such as accuracy, precision, and recall.
 
+## Contributing
+
+We welcome contributions to improve this project. If you have any suggestions or bug reports, please open an issue or submit a pull request.
+
 ## Results
 
 /*The CNN model achieved an accuracy of XX% on the test dataset. The results indicate that the model is effective in distinguishing between different types of bronze artifacts. Detailed results and analysis can be found in the report [link to the report].*/
 
+## License
+
+MIT
