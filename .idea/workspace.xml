@@ -5,11 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0e84d9-0ace-4c1d-9aaf-2bbde961de40" name="更改" comment="start project">
-      <change afterPath="$PROJECT_DIR$/Tools/data_classify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/mkdirs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/picture_transfomer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools/train_valid_classify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_dill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tools/mkdirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/mkdirs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/0/17020830.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/0/1892717_20220921160426889070_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/0/2c4138aa3db611ba905201.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/0/83025aafa40f4bfbfbed29a954036ff0f736aec3b2b0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/0/Da_Ke_ding.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/0/K1A002385N000000000PAG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/0/Yu_Bronze_Ding_of_Western_Zhou_Dynasty (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/0/d66b7e59d0fa93392934f048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/0/fd039245d688d43f8794b94fe449c51b0ef41bd58d4d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/0/下载 (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/0/下载 (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/1/148958931860304039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/1/2283[1024].png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/1/ca1349540923dd54cc1c9359d609b3de9c824897.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/1/下载 (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/1/屏幕截图 2024-06-07 024921.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/2/90px-Epoca_dei_reami_combattenti,_vaso_dui_a_forma_ovoidale,_henan,_500-450_ac._ca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/2/下载 (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/2/下载 (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/2/下载 (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/2/春秋_青銅敦-Grain_Vessel_(Dui)_MET_DT6888.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/3/7a899e510fb30f24da9396f8c895d143ad4b033b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/3/a7d440a85d47480c9606157fcc0de824.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/3/images (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/3/images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/3/屏幕截图 2024-06-07 024147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/4/14_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/4/14_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/4/images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/4/下载 (10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/4/下载 (14).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/4/下载 (9).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/5/1581079173250667.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/5/20201214145051829.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/5/20201214145438455.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/5/2430[1024].png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/5/448_20160108065658376184_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/5/W020230407516282197297.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/5/images (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/5/ligui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/5/thexiqinggujiancataloguedzuobaoyigui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/5/view_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/6/200px-西周“虢季”青铜盨.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/6/2458[1024].png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/6/2873[1024].png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/6/66fce75080ec79dec8e63da32c515f5c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/6/_1708302630_d196c184_progressive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/6/下载 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/6/下载 (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/6/下载 (7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/7/119880_20130803072203436200_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/7/150px-Bronze_Rectangular_Yan_with_Wave_Design.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/7/1866904_20230208150311837218_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/7/202006151715458318.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/7/544217_20171009090809277060_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/7/90px-Bronze_Yan_with_Animal-mask_Motif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/7/Yubo_Yan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/7/下载 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/7/下载 (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/7/下载 (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/7/下载 (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/text.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +119,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.data_classify.executor": "Run",
+    "Python.data_dill.executor": "Run",
     "Python.mkdirs.executor": "Run",
     "Python.picture_transfomer.executor": "Run",
     "Python.text.executor": "Run",
+    "Python.train.executor": "Run",
+    "Python.train_valid_classify.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "E:/AAA_ShTech/史前/cnn/pythonProject",
@@ -98,6 +163,7 @@
       <workItem from="1717692028411" duration="29000" />
       <workItem from="1717692063392" duration="2988000" />
       <workItem from="1717742703486" duration="4077000" />
+      <workItem from="1717760954380" duration="9005000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
@@ -129,9 +195,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="start project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$picture_transfomer.coverage" NAME="picture_transfomer 覆盖结果" MODIFIED="1717752475999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
-    <SUITE FILE_PATH="coverage/pythonProject$text.coverage" NAME="text 覆盖结果" MODIFIED="1717750154621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$picture_transfomer.coverage" NAME="picture_transfomer 覆盖结果" MODIFIED="1717762306761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+    <SUITE FILE_PATH="coverage/pythonProject$text.coverage" NAME="text 覆盖结果" MODIFIED="1717762788944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$data_classify.coverage" NAME="data_classify 覆盖结果" MODIFIED="1717750825309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$mkdirs.coverage" NAME="mkdirs 覆盖结果" MODIFIED="1717751495147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+    <SUITE FILE_PATH="coverage/pythonProject$mkdirs.coverage" NAME="mkdirs 覆盖结果" MODIFIED="1717762295080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+    <SUITE FILE_PATH="coverage/pythonProject$train.coverage" NAME="train 覆盖结果" MODIFIED="1717776996444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$train_valid_classify.coverage" NAME="train_valid_classify 覆盖结果" MODIFIED="1717762330354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+    <SUITE FILE_PATH="coverage/pythonProject$data_dill.coverage" NAME="data_dill 覆盖结果" MODIFIED="1717772135982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

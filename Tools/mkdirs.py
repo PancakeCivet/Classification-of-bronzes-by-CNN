@@ -1,6 +1,6 @@
 import os
 
-parent_dir = "../data/valid/"
+parent_dir = "../data/train/"
 
 if not os.path.exists(parent_dir):
     os.makedirs(parent_dir)
