@@ -17,7 +17,7 @@ The study of bronze artifacts provides invaluable insights into the technologica
 
 ## Dataset
 
-/*The dataset used for this project includes high-resolution images of different types of bronze artifacts. These images were collected from various archaeological databases and publications. Each image is labeled according to the artifact type.*/
+The dataset used for this project includes high-resolution images of different types of bronze artifacts. These images were collected from various archaeological databases and publications. Each image is labeled according to the artifact type.
 
 ## Methodology
 
@@ -35,7 +35,7 @@ We welcome contributions to improve this project. If you have any suggestions or
 
 ## Results
 
-/*The CNN model achieved an accuracy of XX% on the test dataset. The results indicate that the model is effective in distinguishing between different types of bronze artifacts. Detailed results and analysis can be found in the report [link to the report].*/
+The RESNET50 model(from torch.nn.Module) achieved an accuracy of XX% on the test dataset. 
 
 ## License
 
