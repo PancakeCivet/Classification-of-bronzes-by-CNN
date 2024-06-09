@@ -35,7 +35,7 @@ We welcome contributions to improve this project. If you have any suggestions or
 
 ## Results
 
-The RESNET50 model(from torch.nn.Module) achieved an accuracy of XX% on the test dataset. 
+The RESNET50 model(from torch.nn.Module) achieved an accuracy of 85% on the test dataset. 
 
 ## License
 
