@@ -22,7 +22,7 @@ def main():
     num_classes = len(train_loader.dataset.classes)
     model.fc = nn.Linear(num_ftrs, num_classes)
 
-    checkpoint_path = 'bronze_resnet_model.pth'
+    checkpoint_path = 'final_fine_grained_resnet_model.pth'
     if os.path.exists(checkpoint_path):
         print(f"Loading weights from {checkpoint_path}")
         checkpoint = torch.load(checkpoint_path, map_location=device)
